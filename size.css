@@ -14,7 +14,7 @@ html{
     font-size:25px;
 }
 
-img{
+.wormtex{
     max-width: 512px; /* 最大幅 */
     max-height: 512px;
     min-width: 128px; /* 最小幅 */
