@@ -1,0 +1,21 @@
+html{
+    max-width: 100%; /* 最大幅 */
+    min-width: 240px; /* 最小幅 */
+    width: 100%;
+}
+
+.zukan{
+    margin:0px;          /* ページ全体のmargin */
+    padding:0px;         /* ページ全体のpadding */
+    text-align:center;   /* 下記のautoに未対応用のセンタリング */
+}
+
+.listitem{
+    font-size:25px;
+}
+
+img{
+    margin:0px;          /* ページ全体のmargin */
+    padding:0px;         /* ページ全体のpadding */
+    text-align:center;   /* 下記のautoに未対応用のセンタリング */
+}
