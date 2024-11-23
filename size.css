@@ -15,7 +15,13 @@ html{
 }
 
 img{
-    margin:0px;          /* ページ全体のmargin */
-    padding:0px;         /* ページ全体のpadding */
-    text-align:center;   /* 下記のautoに未対応用のセンタリング */
+    max-width: 512px; /* 最大幅 */
+    max-height: 512px;
+    min-width: 128px; /* 最小幅 */
+    min-height: 128px;
+    width: 95%;
+
+    width: min(95vw, 95vh * 0.75);  /* 横幅の計算 */
+    height: min(95vh, 95vw / 0.75); /* 縦幅の計算 */ 
+
 }
