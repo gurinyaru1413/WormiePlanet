@@ -61,11 +61,15 @@
 .yokoso2{
   font-size: 25px;
   display: flex;
+  margin: 0px;
+  margin-left: 5px;
 }
 
 .name1{
   text-decoration: none;
   display: flex;
+  margin: 0px;
+  font-size:25px;
 }
 
 
